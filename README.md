@@ -1,2 +1,2 @@
 # dPlayer
-Desktop Audio Player Application
+Audio Player Application
