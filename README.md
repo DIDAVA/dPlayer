@@ -1,7 +1,7 @@
 # dPlayer
-Advanced audio player based on HTML, CSS, Javascript and Electron.
 ![GitHub Logo](dPlayer.png)
-**dPlayer** uses [dAudio](https://www.github.com/didava.daudio) as main engine for audio playback and plays everything LOUD!
+Advanced audio player based on HTML, CSS, Javascript and Electron.
+**dPlayer** uses [dAudio](https://www.github.com/didava.daudio) as main engine for audio playback and plays everything LOUD by **Smart Remaster** feature provided in [dAudio](https://www.github.com/didava.daudio)
 
 
 ## Project setup
