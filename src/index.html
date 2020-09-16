@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dPlayer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="file" name="file" id="file" accept="audio/*" multiple hidden>
+  <div id="bg"></div>
+  <!-- <img src="img/album-placeholder.png" class="bg" id="bg"> -->
+  <div class="flex">
+    <img id="cover" src="img/album-placeholder.png"/>
+    <span class="flex column">
+      <h1 id="title">Title</h1>
+      <p id="artist">Artist</p>
+      <div class="spacer"></div>
+      <div id="info"></div>
+    </span>
+  </div>
+  <canvas id="analyser"></canvas>
+  <div class="flex align">
+    <span id="timer"></span>
+    <input type="range" min="0" max="100" value="0" step="0.001" class="slider" id="seekbar">
+    <span id="duration"></span>
+  </div>
+  <div class="flex align justify">
+    <span class="btn clickable on" id="remaster"><i class="fas fa-magic"></i></span>
+    <span class="spacer"></span>
+    <span class="btn clickable" id="eject"><i class="fas fa-eject"></i></span>
+    <span class="btn clickable" id="previous"><i class="fas fa-fast-backward"></i></span>
+    <span class="btn clickable" id="backward"><i class="fas fa-backward"></i></span>
+    <span class="btn clickable" id="playPause"><i class="fas fa-play"></i></span>
+    <span class="btn clickable" id="forward"><i class="fas fa-forward"></i></span>
+    <span class="btn clickable" id="next"><i class="fas fa-fast-forward"></i></span>
+    <span class="btn clickable" id="stop"><i class="fas fa-stop"></i></span>
+    <span class="spacer"></span>
+    <span class="btn clickable" id="repeat"><i class="fas fa-undo"></i></span>
+  </div>
+</body>
+</html>
+
+<script src="dAudio.js"></script>
+<script src="dPlayer.js" dense></script>

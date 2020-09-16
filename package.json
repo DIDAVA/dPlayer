@@ -1,0 +1,29 @@
+{
+  "name": "dplayer",
+  "version": "1.0.0",
+  "description": "HQ Audio Player",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didava/dplayer.git"
+  },
+  "keywords": [
+    "audio",
+    "player"
+  ],
+  "author": "DIDAVA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/didava/dplayer/issues"
+  },
+  "homepage": "https://github.com/didava/dplayer#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "electron": "^10.1.1",
+    "music-metadata-browser": "^2.1.3"
+  }
+}
