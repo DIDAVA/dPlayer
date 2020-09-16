@@ -1,4 +1,7 @@
-# dplayer
+# dPlayer
+Advanced audio player based on HTML, CSS, Javascript and Electron.
+![GitHub Logo](dPlayer.png)
+**dPlayer** uses [dAudio](https://www.github.com/didava.daudio) as main engine for audio playback and plays everything LOUD!
 
 ## Project setup
 ```
@@ -19,6 +22,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
